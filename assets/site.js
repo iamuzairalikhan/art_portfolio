@@ -1,4 +1,4 @@
-/* Uzair Ali Khan — portfolio behaviour
+/* Uzair Ali Khan - portfolio behaviour
    Three things only: the drag-strip, the work viewer, and the masthead knowing
    whether it is sitting on paper or on twilight. */
 (function () {

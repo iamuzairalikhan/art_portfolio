@@ -1,4 +1,4 @@
-/* Uzair Ali Khan — portfolio
+/* Uzair Ali Khan - portfolio
    Ground: cartridge paper -> studio twilight, following the work's own arc. */
 
 :root{
@@ -49,8 +49,8 @@ p{margin:0}
 }
 .display .now{
   display:block;margin-top:.34em;
-  font-size:clamp(2.6rem,6.6vw,5.4rem);line-height:1.0;font-weight:280;
-  letter-spacing:-.03em;max-width:15ch;
+  font-size:clamp(2.3rem,5.2vw,4.4rem);line-height:1.06;font-weight:280;
+  letter-spacing:-.025em;max-width:22ch;
 }
 .display .rule{
   display:block;width:clamp(56px,7vw,104px);height:1px;background:var(--sun);
@@ -295,7 +295,7 @@ p{margin:0}
 }
 .enquire:hover{border-bottom-color:var(--sun)}
 
-/* plate placement — an asymmetric hang, explicit rows so nothing auto-packs */
+/* plate placement: an asymmetric hang, explicit rows so nothing auto-packs */
 .p1 .plate__fig{grid-column:1/7;grid-row:1}
 .p1 .plate__label{grid-column:8/12;grid-row:1}
 .p2 .plate__fig{grid-column:7/13;grid-row:2}

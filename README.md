@@ -1,4 +1,4 @@
-# Uzair Ali Khan — Artist & Painter Portfolio
+# Uzair Ali Khan - Artist & Painter Portfolio
 
 A single-page portfolio site showcasing Oil on canvas with palette knife impasto, hyper-realistic framed charcoal & graphite portraits, and classical drawing foundation studies.
 
@@ -15,8 +15,8 @@ index.html              the whole page
 assets/site.css         styles
 assets/site.js          drag-strip, work viewer, masthead
 assets/works/           paintings, framed portraits, and study sheets
-                          name.jpg      ~900px  — used in the page
-                          name-lg.jpg   ~1800px — used in the viewer
+                          name.jpg      ~900px  : used in the page
+                          name-lg.jpg   ~1800px : used in the viewer
 assets/img/             portrait, share image, favicon
 _src/                   clean-named copies of the originals
 _build-images.sh        regenerates assets/works from _src
@@ -24,7 +24,7 @@ _build-images.sh        regenerates assets/works from _src
 
 ## Publishing it
 
-Any static host works. Drag this folder onto **netlify.com/drop** — it's live in about ten seconds,
+Any static host works. Drag this folder onto **netlify.com/drop** - it's live in about ten seconds,
 and you can attach a custom domain (e.g. `uzairalikhan.com`) from the Netlify dashboard.
 Cloudflare Pages, Vercel and GitHub Pages all work the same way.
 
@@ -34,7 +34,7 @@ Cloudflare Pages, Vercel and GitHub Pages all work the same way.
 2. Add a line to the `MAP` block in `_build-images.sh`:
    `w36|title-in-lowercase-with-dashes|100`
    The third field is the crop. `100` means no crop. To crop, use pixel geometry
-   measured on the original — `WIDTHxHEIGHT+X+Y`, e.g. `758x1088+38+64`.
+   measured on the original: `WIDTHxHEIGHT+X+Y`, e.g. `758x1088+38+64`.
    (ImageMagick reads offsets in a `%` geometry as pixels, so always use pixels.)
 3. Run `bash _build-images.sh`.
 4. Copy an existing `<div class="plate p6">…</div>` block in `index.html`, point it at the new
