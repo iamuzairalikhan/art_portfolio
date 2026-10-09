@@ -1,6 +1,12 @@
-# Uzair Ali Khan — portfolio
+# Uzair Ali Khan — Artist & Painter Portfolio
 
-A single-page portfolio site. No build step, no dependencies: open `index.html` or upload the folder.
+A single-page portfolio site showcasing Oil on canvas with palette knife impasto, hyper-realistic framed charcoal & graphite portraits, and classical drawing foundation studies.
+
+- **Artist Location:** Rawalpindi, Pakistan
+- **Instagram:** [@khayaleuzair](https://instagram.com/khayaleuzair)
+- **TikTok:** [@khayaaleuzair](https://www.tiktok.com/@khayaaleuzair)
+
+No build step, no dependencies: open `index.html` or upload the folder.
 
 ## What's here
 
@@ -8,9 +14,9 @@ A single-page portfolio site. No build step, no dependencies: open `index.html` 
 index.html              the whole page
 assets/site.css         styles
 assets/site.js          drag-strip, work viewer, masthead
-assets/works/           35 works, two sizes each
+assets/works/           paintings, framed portraits, and study sheets
                           name.jpg      ~900px  — used in the page
-                          name-lg.jpg   ~1700px — used in the viewer
+                          name-lg.jpg   ~1800px — used in the viewer
 assets/img/             portrait, share image, favicon
 _src/                   clean-named copies of the originals
 _build-images.sh        regenerates assets/works from _src
@@ -36,11 +42,9 @@ Cloudflare Pages, Vercel and GitHub Pages all work the same way.
 
 ## Things worth changing
 
-- **Location.** The page says Lahore, Pakistan (in the About rail, the footer and the JSON-LD
-  block at the bottom of `index.html`). Change it if that's wrong.
-- **Years.** Every painting is labelled 2026, taken from the photo dates. Correct any that are older.
-- **Dimensions.** Gallery wall labels normally carry size in cm. They're left out because the
-  paintings weren't measured — worth adding to each `plate__medium` line once you have them.
+- **Location.** Set to Rawalpindi, Pakistan (in hero, about, colophon, and JSON-LD).
+- **Dimensions.** Added to all paintings (square: 18″ × 18″, Moonlit Serenity: 12″ × 18″, rectangular: 24″ × 36″) in both labels and viewer metadata.
+- **Years.** Every painting is currently labelled 2026, taken from the photo dates. Correct any that are older.
 - **The notes under each painting** describe the technique visible in the photograph. Read them
   and make them yours; they're the part a gallery will actually read.
 - The 36 loose `.jpg`/`.jpeg` files in the project root are the untouched originals. They aren't
